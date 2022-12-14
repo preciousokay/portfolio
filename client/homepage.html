@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Precious Okeh Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+           text-align: center;
+        }
+
+        header {
+            font-family: monospace;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: small;
+        }
+
+        #navigation {
+            font-family: monospace;
+            border-top: 2px solid black;
+            padding: 10px;
+            font-size: larger;
+        }
+
+        h1 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        #hero {
+            background-image: url('../images/header.png');
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 300px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        #calltoaction {
+            position: absolute;
+            margin-top: 100px;
+            text-align: center;
+        }
+
+        button {
+            background-color: brown;
+            border: 1px solid black;
+            color: white;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            padding: 5px;
+            border-radius: 10px;
+        }
+
+        button:hover {
+            background-color: white;
+            border: 1px solid black;
+            color: brown;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            padding: 5px;
+            border-radius: 10px;
+        }
+
+        #showcase {
+            height: 50px;
+            width: auto;
+        }
+
+        @media only screen and (max-width: 700px) {
+                #portfolio {
+                    width: 49.99999%;
+                    margin: 6px 0;
+                }
+            }
+
+        @media only screen and (max-width: 500px) {
+                #portfolio {
+                    width: 100%;
+                }
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="../images/haro.gif" id="websitebot">
+        <h1>
+            Hi!
+        </h1>
+    </header>
+
+    <div id="navigation">
+        <nav>
+            <a href="../client/homepage.html">HOMEPAGE</a> |
+            <a href="../client/about.html">ABOUT</a> |
+            <a href="../client/work.html">MORE OF MY WORK</a> |
+            <a href="../client/contact.html">CONTACT</a>
+        </nav>
+    </div>
+
+    <div id="hero">
+        <h1> 
+            Precious Ezinna Okeh 
+        </h1>
+
+        <p> 
+            Hello, my name is Precious! <br> 
+            I'm a multimedia designer based in the Greater Toronto Area.
+        </p>
+
+        <h4> 
+            Welcome to my space! 
+        </h4>
+
+        <a href="#" class="calltoaction">
+            <button>
+                SNEAK PEAK AT NEW PROJECT!
+            </button>
+        </a>
+    </div>
+
+    <div id="showcase">
+        <!-- slideshow or just thumbnails, maybe nothing as well -->
+        <a href="#"><img src="../images/icons.png" height="400px"></a>
+        <a href="#"><img src="../images/mobile app.jpeg" height="400px"></a>
+        <a href="#"><img src="../images/poster.png" height="400px"></a>
+        <a href="#"><img src="../images/zombie.png" height="400px"></a>
+    </div>
+
+</body>
+</html>

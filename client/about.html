@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Precious Okeh Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+           text-align: center;
+        }
+
+        header {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: small;
+        }
+
+        #websitebot {
+            height: fit-content;
+        }
+
+
+        #navigation {
+            font-family: monospace;
+            border-top: 2px solid black;
+            padding: 10px;
+            font-size: larger;
+        }
+
+        h1 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        p {
+            font-family: monospace;
+            font-size: x-large;
+            font-weight: bold;
+            text-align: left;
+            margin-left: 25px;
+        }
+
+        img {
+            height: 400px;
+        }
+
+        #description {
+            display: flex;
+            align-items: center;
+            padding: 1% 20% 2% 20%;
+        }
+
+        @media only screen and (max-width: 700px) {
+                #description {
+                    width: 49.99999%;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 0;
+                }
+
+                p {
+                    font-size: small;
+                    margin-left: 0%;
+                }
+
+                img {
+                    height: 300px;
+                }
+            }
+
+        @media only screen and (max-width: 500px) {
+                #description {
+                    width: 100%;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 0;
+                }
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="../images/haro.gif" id="websitebot">
+        <h1>
+            Hi!
+        </h1>
+    </header>
+
+    <div id="navigation">
+        <nav>
+            <a href="../client/homepage.html">HOMEPAGE</a> |
+            <a href="../client/about.html">ABOUT</a> |
+            <a href="../client/work.html">MORE OF MY WORK</a> |
+            <a href="../client/contact.html">CONTACT</a>
+        </nav>
+    </div>
+
+    <h1>
+        Where to start...
+    </h1>
+
+    <article id="description">
+        <aside>
+            <img src="../images/mascot.png">
+        </aside>
+        <p> 
+            Born and raised in the Greater Toronto Area (GTA),
+            Precious began pursuing a career in the creative fields 
+            at the age of 20. The aspiration change came about at
+            the beginning of COVID-19, a time where many individuals
+            were relearning how to live true to themselves.
+
+            Quickly growing in areas such as illustration, motion
+            design, graphic design, as well as both user interface
+            and user experience designing, she took upon projects
+            driven by passion and deadlines.
+
+            Indulging in creative outputs is something Precious loves
+            to do most, and in combination with her interests that
+            lie in fashion, gaming, space, and technology, the entire 
+            world seems to work as an inspiration to give her work 
+            the feeling of in hopes of envoking child-like wonder in 
+            all the eyes that are able to view.
+
+            Currently 23, it is her goal and hope to be able to live
+            up to her name.
+        </p>
+    </article>
+
+</body>
+</html>

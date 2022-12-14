@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Precious Okeh Portfolio</title>   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+           text-align: center;
+        }
+
+        header {
+            font-family: monospace;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: small;
+        }
+
+        #websitebot {
+            border: 0px;
+        }
+
+        #navigation {
+            font-family: monospace;
+            border-top: 2px solid black;
+            padding: 10px;
+            font-size: larger;
+        }
+
+        p {
+            font-family: monospace;
+            font-weight: bold;
+            position: relative;
+            text-align: left;
+            padding-left: 15px;
+        }
+
+        #portfolio {
+            padding: 0 6px;
+            float: left;
+            width: 24.99999%;
+        }
+
+        img {
+            border: 1px solid black;
+            border-radius: 20%;
+        }
+
+        #thumbnail {
+            display: flex;
+            justify-content: center;
+        }
+
+        @media only screen and (max-width: 700px) {
+                #portfolio {
+                    width: 49.99999%;
+                    margin: 6px 0;
+                }
+            }
+
+        @media only screen and (max-width: 500px) {
+                #portfolio {
+                    width: 100%;
+                }
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="../images/haro.gif" id="websitebot">
+        <h1>
+            Hi!
+        </h1>
+    </header>
+
+    <div id="navigation">
+        <nav>
+            <a href="../client/homepage.html">HOMEPAGE</a> |
+            <a href="../client/about.html">ABOUT</a> |
+            <a href="../client/work.html">MORE OF MY WORK</a> |
+            <a href="../client/contact.html">CONTACT</a>
+        </nav>
+    </div>
+
+
+    <div id="portfolio">
+        <!-- displayed as large sizes but not overwhelmingly large
+        ICONS, STATFLO PIECES, ILLUSTRATOR WORK, MOTION DESIGN WORK,
+        BEST ILLUSTRATIONS -->
+
+        <div id="thumbnail">
+            <a href="../client/icons.html"><img src="../images/icons.png" height="200px"></a>
+            <div id="desc"><h4> SKINCARE ICON PACK </h4>
+            <p>This is an icon pack created around the topic of skincare.
+                It includes 9 icons as well as the color palette used. </p>
+            </div>
+        </div>
+
+        <div id="thumbnail">
+            <a href="../client/mascot.html"><img src="../images/mascot.png" height="200px"></a>
+            <div id="desc"><h4> MASCOT </h4>
+            <p> This is vector art for a character I made
+                to represent me in profile type images! </p>
+            </div>
+        </div>
+
+        <div id="thumbnail">
+            <a href="../client/poster.html"><img src="../images/poster.png" height="200px"></a>
+            <div id="desc"><h4> 3D POSTER </h4>
+            <p> This piece was created whilst playing around 
+                with the 3D capabilities of Adobe's illustrator. </p>
+            </div>
+        </div>
+
+         <div id="thumbnail">
+            <a href="../client/zombie.html"><img src="../images/zombie.png" height="200px"></a>
+            <div id="desc"><h4> ZOMBIE </h4>
+            <p> This illustration was made during a nice break 
+                after a long work week. It plays off of manifesting
+                the exhaustion into a piece of digital art. </p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Precious Okeh Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+           text-align: center;
+        }
+
+        header {
+            font-family: monospace;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: small;
+        }
+
+        #websitebot {
+            border: 0px;
+        }
+
+        #navigation {
+            font-family: monospace;
+            border-top: 2px solid black;
+            padding: 10px;
+            font-size: larger;
+        }
+
+        h4 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        p {
+            font-family: monospace;
+            font-weight: bold;
+        }
+
+        #details {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        #description:hover {
+            background-color: black;
+            color: white;
+        }
+
+
+
+        @media only screen and (max-width: 700px) {
+                #details {
+                    flex-direction: row-reverse;
+                    padding-top: 0;
+                }
+
+                img {
+                    width: 400px;
+                    height: auto;
+                }
+
+                p {
+                    font-size: xx-small;
+                }
+            }
+
+        @media only screen and (max-width: 500px) {
+            #details {
+                    flex-direction: row-reverse;
+                    padding-top: 0;
+                }
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="../images/haro.gif" id="websitebot">
+        <h1>
+            Hi!
+        </h1>
+    </header>
+
+    <div id="navigation">
+        <nav>
+            <a href="../client/homepage.html">HOMEPAGE</a> |
+            <a href="../client/about.html">ABOUT</a> |
+            <a href="../client/work.html">MORE OF MY WORK</a> |
+            <a href="../client/contact.html">CONTACT</a>
+        </nav>
+    </div>
+
+<body>
+
+
+
+
+    <div id="details">
+        <img src="../images/zombie.png">
+
+        <div id="description">
+        <h4>
+            For:
+        </h4>
+        <p> 
+            PASSION PROJECT
+        </p>
+
+        <h4>
+            Objective:
+        </h4>
+        <p> 
+            CREATE AN ILLUSTRATION OF MY MOOD
+        </p>
+
+        <h4>
+            Total process time:
+        </h4>
+        <p> 
+            2 HOURS
+        </p>
+
+        <h4>
+            Created with:
+        </h4>
+        <p> 
+            KRITA
+        </p>
+        </div>
+
+    </div>
+
+</body>
+</html>
